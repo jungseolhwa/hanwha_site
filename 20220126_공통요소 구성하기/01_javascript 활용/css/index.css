@@ -1,0 +1,8 @@
+/*index.css*/
+@charset "utf-8";
+
+section{display: flex; justify-content: center; align-items: center; color:#fff; font-size: 24px;}
+
+section#cont1{height: 400px; background-color: #05e;}
+section#cont2{height: 500px; background-color: #e50;}
+section#cont3{height: 400px; background-color: #5a0;}

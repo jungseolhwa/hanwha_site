@@ -1,0 +1,32 @@
+/*common.css*/
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Play:wght@400;700&display=swap');
+
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Play', sans-serif;
+*/
+
+*{box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a, a:hover{text-decoration: none;}
+
+.font_play{font-family: 'Play', sans-serif;}
+
+/*header part*/
+header{height: 91px; border-bottom: 1px solid #bbb;}
+header .wrap{width: 1200px; margin: 0 auto; height: 100%; /*background-color: #ddd;*/ padding: 0 10px; display: flex; justify-content: space-between; align-items: flex-start;}
+header .wrap .logo{padding: 20px 0;}
+header .wrap .logo a{}
+header .wrap .logo a img{display: block; height: 50px;}
+
+header .wrap .menu{}
+header .wrap .menu ul{display: flex;}
+header .wrap .menu ul li{}
+header .wrap .menu ul li a{display: block; padding: 0 15px; line-height: 90px; color:#777;}
+
+/*footer part*/
+footer{padding: 20px 0; background-color: #333;}
+footer p{font-size: 14px; color:#fff; text-align: center;}
